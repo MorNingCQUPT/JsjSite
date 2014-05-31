@@ -1,0 +1,1787 @@
+[ 2014-05-31T10:51:41+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005487s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005405s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004891s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000432s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000180s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.006156s ]
+SQL: UPDATE `jsj_user` SET `authority`='a:2:{s:8:\"is_admin\";s:1:\"1\";s:9:\"authority\";a:2:{i:0;i:1;i:1;i:2;}}' WHERE ( user_id = 1 ) [ RunTime:0.001658s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000427s ]
+NOTIC: [8] Undefined index: rights D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2014-05-31T10:51:49+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004891s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004284s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.005305s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000167s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004356s ]
+SQL: UPDATE `jsj_user` SET `authority`='a:2:{s:8:\"is_admin\";s:1:\"1\";s:9:\"authority\";a:2:{i:0;i:1;i:1;i:2;}}' WHERE ( user_id = 1 ) [ RunTime:0.001660s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index: rights D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2014-05-31T10:52:03+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005049s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004785s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004211s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000414s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000701s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000151s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004749s ]
+SQL: UPDATE `jsj_user` SET `authority`='a:2:{s:8:\"is_admin\";s:1:\"1\";s:6:\"rights\";a:2:{i:0;i:1;i:1;i:2;}}' WHERE ( user_id = 1 ) [ RunTime:0.001185s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2014-05-31T10:52:20+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004701s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004120s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.005114s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000254s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000161s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000495s ]
+NOTIC: [8] Undefined variable: User D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 41 行.
+
+[ 2014-05-31T10:52:21+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.006290s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005194s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004359s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000357s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000194s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000621s ]
+NOTIC: [8] Undefined variable: User D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 41 行.
+
+[ 2014-05-31T10:52:30+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004525s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003868s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004250s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000429s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000180s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003963s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2014-05-31T10:52:39+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003902s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003714s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004321s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000476s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.002936s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000316s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004220s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2014-05-31T11:13:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005532s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004781s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004444s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000410s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000218s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005004s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2014-05-31T11:13:14+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004416s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 1 )  [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2014-05-31T11:13:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.006194s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 2 )  [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2014-05-31T11:13:19+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004701s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 3 )  [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2014-05-31T11:13:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004396s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 2 )  [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2014-05-31T11:13:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005183s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 5 )  [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2014-05-31T11:13:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005471s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 3 )  [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2014-05-31T11:14:33+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005406s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 3 )  [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2014-05-31T11:14:36+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2014-05-31T11:14:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2014-05-31T11:14:50+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005783s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 5 )  [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2014-05-31T11:14:59+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005596s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 5 )  [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2014-05-31T11:15:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.006921s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 1 )  [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2014-05-31T11:15:35+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004375s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004232s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004776s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000193s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000151s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004697s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2014-05-31T11:17:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004701s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 1 )  [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2014-05-31T11:17:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2014-05-31T11:17:58+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004906s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 5 )  [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2014-05-31T11:17:59+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004407s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 1 )  [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2014-05-31T11:18:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004891s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 2 )  [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2014-05-31T11:18:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004560s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 3 )  [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2014-05-31T11:28:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004811s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005937s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.005191s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000262s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000165s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005054s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2014-05-31T14:14:03+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004694s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 1 )  [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2014-05-31T14:14:06+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004816s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 2 )  [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2014-05-31T14:20:09+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003976s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 2 )  [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2014-05-31T14:20:14+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003934s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003699s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.006011s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000201s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000145s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003702s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2014-05-31T14:20:54+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004478s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005127s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004092s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000132s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003767s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2014-05-31T14:21:20+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004243s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003873s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003934s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000182s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000123s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003714s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2014-05-31T14:21:21+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004272s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003651s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004584s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000389s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000258s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000151s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004247s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-05-31T14:21:21+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008158s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004308s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003792s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004254s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000405s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000164s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004440s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2014-05-31T14:21:21+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004235s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005345s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004226s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000430s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000194s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004876s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2014-05-31T14:21:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005939s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003905s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004096s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000174s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000133s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005410s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2014-05-31T14:22:31+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003877s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003707s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003757s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000254s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000148s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003576s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2014-05-31T14:23:10+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004084s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004276s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003861s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000372s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000204s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000164s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004468s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2014-05-31T14:23:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003960s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003848s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003922s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000567s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003791s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2014-05-31T14:23:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004042s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003887s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004258s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000239s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000169s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003799s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2014-05-31T14:23:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004516s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003971s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003670s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000372s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000209s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000150s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004310s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2014-05-31T14:23:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004353s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003377s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004044s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000572s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000443s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000584s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.008120s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2014-05-31T14:23:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004026s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003726s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004213s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000425s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000217s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004470s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2014-05-31T14:23:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004351s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004084s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003593s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000390s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000186s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.006058s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-05-31T14:23:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+
+[ 2014-05-31T14:23:55+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004285s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003612s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003696s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000412s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000196s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003735s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2014-05-31T14:24:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004444s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 2 )  [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2014-05-31T14:24:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004556s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004400s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003798s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000268s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004271s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2014-05-31T14:24:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004242s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 2 )  [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2014-05-31T14:24:52+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005820s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005539s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004367s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000573s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000488s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.003354s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000217s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005137s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2014-05-31T14:24:57+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Article/index/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003910s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_id` = 2 )  [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2014-05-31T14:24:59+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005351s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004734s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004672s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000506s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000747s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000241s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005467s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2014-05-31T14:37:31+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004466s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004040s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003844s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000456s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000246s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000156s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000519s ]
+NOTIC: [8] Array to string conversion D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004984s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2014-05-31T14:37:48+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005978s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004560s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004084s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000506s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000253s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000142s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005826s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2014-05-31T14:38:41+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004014s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003633s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004106s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000505s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000167s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003613s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2014-05-31T14:42:17+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004022s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003951s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004379s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000462s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000245s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003967s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2014-05-31T14:42:28+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004323s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005338s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003902s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000342s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000231s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000157s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004401s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2014-05-31T14:53:13+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+
+[ 2014-05-31T14:53:24+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+
+[ 2014-05-31T14:53:24+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-05-31T14:53:30+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004095s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004004s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004393s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000433s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000265s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000195s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003959s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2014-05-31T15:01:23+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+
+[ 2014-05-31T15:01:55+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005043s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003748s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004520s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000393s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000210s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000199s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000829s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004576s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2014-05-31T15:02:24+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004851s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005261s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003829s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000166s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000481s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005133s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-05-31T15:02:58+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004103s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004946s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.005355s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000475s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000153s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000570s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003974s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2014-05-31T15:02:59+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004687s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003721s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003436s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000231s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000162s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000549s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004107s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2014-05-31T15:02:59+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004085s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004247s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004144s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000389s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000221s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000211s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000570s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004733s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2014-05-31T15:02:59+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004084s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003668s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003806s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000354s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000165s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000487s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003768s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2014-05-31T15:02:59+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004298s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005020s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004016s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000311s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000447s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004790s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2014-05-31T15:02:59+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004326s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005474s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.006120s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000501s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000394s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000160s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000602s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004156s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2014-05-31T15:03:07+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004136s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004217s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003617s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000339s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000219s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000142s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000497s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004845s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-05-31T15:03:58+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004131s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004028s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003631s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000540s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000196s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000629s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004323s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-05-31T15:04:20+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004466s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003683s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003874s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000339s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000202s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000169s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000542s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004016s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2014-05-31T15:04:26+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005087s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003649s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003847s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000193s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000189s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000545s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003837s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2014-05-31T15:04:26+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003976s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003746s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003935s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000419s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000230s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000168s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000488s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004556s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2014-05-31T15:04:26+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004922s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004537s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.005239s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000467s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000283s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000189s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000753s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004170s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2014-05-31T15:04:26+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004380s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004491s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003946s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000400s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000162s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000520s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004836s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2014-05-31T15:04:27+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005214s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004370s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003921s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000390s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000241s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000185s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000527s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005124s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2014-05-31T15:04:27+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004271s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004731s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004292s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000213s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000502s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004359s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2014-05-31T15:05:57+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005252s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003636s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003613s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000173s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000227s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000659s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003817s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2014-05-31T15:05:58+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004534s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003778s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.005222s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000314s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000460s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003929s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2014-05-31T15:05:58+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005238s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.005716s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004712s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000548s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000219s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.001012s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.005329s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2014-05-31T15:06:34+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004576s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003645s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004845s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000354s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000205s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000133s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000449s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004212s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-05-31T15:06:52+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003929s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004390s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003969s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000725s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000293s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000213s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000584s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004603s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2014-05-31T15:07:06+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.043490s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003792s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003680s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000648s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000159s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000542s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004576s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2014-05-31T15:08:45+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005012s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.003763s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.003777s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000484s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000232s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000134s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000539s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.004075s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-05-31T15:08:45+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004592s ]
+SQL: SHOW COLUMNS FROM `jsj_plate` [ RunTime:0.004138s ]
+SQL: SHOW COLUMNS FROM `jsj_column` [ RunTime:0.004024s ]
+SQL: SELECT * FROM `jsj_article`  [ RunTime:0.000376s ]
+SQL: SELECT * FROM `jsj_plate`  [ RunTime:0.000218s ]
+SQL: SELECT * FROM `jsj_column`  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000231s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000530s ]
+NOTIC: [2] Illegal offset type D:\Wamp\www\thinkphp\Application\Home\Controller\IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `jsj_user` [ RunTime:0.003894s ]
+SQL: SELECT * FROM `jsj_user`  [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2014-05-31T16:27:04+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-05-31T16:28:44+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
