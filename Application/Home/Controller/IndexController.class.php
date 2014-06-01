@@ -12,13 +12,11 @@ class IndexController extends Controller {
         $menu_array = $this->get_menu_array();
         $article_array = $this->get_article_list();
 
-        dump($menu_array);
-        dump($article_array);
-
         // 传给View层渲染
         $display = array();
         $display['menu'] = $menu_array;
 
+        $this->assign('menu', $menu_array);
         $this->display();
     }
 
@@ -38,20 +36,22 @@ class IndexController extends Controller {
             // 转换查询结果格式
             $menu_array_result = array();
             $init_plate_id = $menu_array[0]['plate_id'];
-            $each_plate = array($menu_array[0]['plate_id'] => $menu_array[0]['plate_name']);
+            $each_plate = array('plate_id' => $menu_array[0]['plate_id'],
+                                'plate_name' => $menu_array[0]['plate_name']);
             $plate_columns = array();
             foreach ($menu_array as $menu) {
                 if( $init_plate_id != $menu['plate_id'] ) {
-                    $each_plate[0] = $plate_columns;
+                    $each_plate['columns'] = $plate_columns;
                     $menu_array_result[] = $each_plate;
 
                     $init_plate_id = $menu['plate_id'];
-                    $each_plate = array($menu['plate_id'] => $menu['plate_name']);
+                    $each_plate = array('plate_id' => $menu['plate_id'],
+                                        'plate_name' => $menu['plate_name']);
                     $plate_columns = array();
                 }
                 $plate_columns[$menu['column_id']] = $menu['column_name'];
             }
-            $each_plate[0] = $plate_columns;
+            $each_plate['columns'] = $plate_columns;
             $menu_array_result[] = $each_plate;
 
             return $menu_array_result;

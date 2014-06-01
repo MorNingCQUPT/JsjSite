@@ -5,5 +5,14 @@
 </head>
 <body>
 
+<!-- 头部菜单 Start -->
+<foreach name="menu" item="vo">
+    <li>板块 {$vo.plate_id}:{$vo.plate_name}</li>
+    <foreach name="vo['columns']" item="cl" key="index">
+         <ul>栏目 {$index}:{$cl}</ul>
+    </foreach>
+</foreach>
+<!-- 头部菜单 End -->
+
 </body>
 </html>
