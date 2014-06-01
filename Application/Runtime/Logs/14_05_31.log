@@ -1785,3 +1785,119 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
 
+[ 2014-05-31T22:28:21+08:00 ] 127.0.0.1 /JsjSite/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000193s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.021445s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.016759s ]
+ERR: 错误的查询条件:[plate_id=>1]
+
+[ 2014-05-31T22:31:01+08:00 ] 127.0.0.1 /JsjSite/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000122s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003817s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_plate_id` = 1 ) AND ( `article_column_id` = 1 )  [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2014-05-31T22:33:44+08:00 ] 127.0.0.1 /JsjSite/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000152s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003404s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_plate_id` = 1 ) AND ( `article_column_id` = 1 )  [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2014-05-31T22:33:45+08:00 ] 127.0.0.1 /JsjSite/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000139s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003288s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_plate_id` = 1 ) AND ( `article_column_id` = 1 )  [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2014-05-31T22:33:45+08:00 ] 127.0.0.1 /JsjSite/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000176s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.004353s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_plate_id` = 1 ) AND ( `article_column_id` = 1 )  [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2014-05-31T22:33:45+08:00 ] 127.0.0.1 /JsjSite/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000165s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.003320s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_plate_id` = 1 ) AND ( `article_column_id` = 1 )  [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2014-05-31T22:33:45+08:00 ] 127.0.0.1 /JsjSite/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM jsj_plate, [ RunTime:0.000150s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM jsj_plate,
+SQL: SELECT `plate_id`,`plate_name`,`column_id`,`column_name` FROM `jsj_plate`,`jsj_column` WHERE ( plate_id = column_of_plate_id ) ORDER BY plate_id, column_id  [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `jsj_article` [ RunTime:0.005145s ]
+SQL: SELECT * FROM `jsj_article` WHERE ( `article_plate_id` = 1 ) AND ( `article_column_id` = 1 )  [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
