@@ -20,7 +20,7 @@
 
 <body>
 <!-- 菜单 开始 -->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,18 +33,15 @@
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <!-- 头部菜单 Start -->
+<!-- 头部菜单 Start -->
                 <li class="active"><a href="#">首页</a></li>
                 <?php if(is_array($menu)): foreach($menu as $key=>$vo): ?><li class="dropdown">
-                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><?php echo ($vo["plate_name"]); ?><b
-                                class="caret"></b></a>
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown"><?php echo ($vo["plate_name"]); ?><b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <?php if(is_array($vo['columns'])): foreach($vo['columns'] as $index=>$cl): ?><li class="">
-                                    <a href="#" target="_blank"><?php echo ($cl); ?></a>
-                                </li><?php endforeach; endif; ?>
+                            <?php if(is_array($vo['columns'])): foreach($vo['columns'] as $index=>$cl): ?><li class=""><a href="#" target="_blank"><?php echo ($cl); ?></a></li><?php endforeach; endif; ?>
                         </ul>
                     </li><?php endforeach; endif; ?>
-                <!-- 头部菜单 End -->
+<!-- 头部菜单 End -->
             </ul>
         </div>
     </div>

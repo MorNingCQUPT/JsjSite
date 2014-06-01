@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/14_06_01.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/14_06_01.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/README.md" afterPath="$PROJECT_DIR$/Public/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,12 +29,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.637138" vertical-offset="0" max-vertical-offset="1530">
+            <state line="20" column="6" selection-start="803" selection-end="803" vertical-scroll-proportion="-5.8846154" vertical-offset="187" max-vertical-offset="1241">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsjsite.sql" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Docs/DB-Back/jsjsite.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -65,8 +76,8 @@
         <option value="$PROJECT_DIR$/Application/Home/View/News/index.html" />
         <option value="$PROJECT_DIR$/Public/js/jquery.js" />
         <option value="$PROJECT_DIR$/Public/js/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
       </list>
     </option>
   </component>
@@ -194,6 +205,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,13 +234,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB-Back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsjSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,11 +274,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Wamp\www\JsjSite\Docs\DB-Back" />
       <recent name="D:\Wamp\www\JsjSite\Public" />
       <recent name="D:\Wamp\www\JsjSite\Public\js" />
       <recent name="D:\Wamp\www\thinkphp\Application\Admin\Conf" />
       <recent name="D:\Wamp\www\thinkphp\Application\Admin\Common" />
-      <recent name="D:\Wamp\www\thinkphp\Application\Admin\Controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -295,15 +324,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20717423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20717423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970452" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -337,13 +366,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1530" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ArticleController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="714">
-          <folding>
-            <element signature="e#33#54#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="29" column="30" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
@@ -355,9 +385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
@@ -367,9 +395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="30" column="10" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
@@ -379,9 +405,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="1" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="42" column="1" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
@@ -391,9 +415,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="26" column="1" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
@@ -403,9 +425,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="19" column="1" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
@@ -415,9 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="11" column="1" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
@@ -427,9 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="9" column="20" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
@@ -439,9 +455,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="9" column="1" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
@@ -526,102 +540,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2119" selection-end="2119" vertical-scroll-proportion="1.7955707" vertical-offset="0" max-vertical-offset="5151">
-          <folding />
-        </state>
+        <state line="70" column="0" selection-start="2119" selection-end="2119" vertical-scroll-proportion="1.7955707" vertical-offset="0" max-vertical-offset="5151" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/NewsController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4633731" vertical-offset="0" max-vertical-offset="816">
-          <folding>
-            <element signature="e#33#54#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="16" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4633731" vertical-offset="0" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/News/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="278" selection-end="278" vertical-scroll-proportion="0.37649062" vertical-offset="0" max-vertical-offset="587">
-          <folding />
-        </state>
+        <state line="13" column="9" selection-start="278" selection-end="278" vertical-scroll-proportion="0.37649062" vertical-offset="0" max-vertical-offset="587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ArticleController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="757" selection-end="757" vertical-scroll-proportion="1.0136286" vertical-offset="0" max-vertical-offset="697">
-          <folding>
-            <element signature="e#33#54#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="35" column="1" selection-start="757" selection-end="757" vertical-scroll-proportion="1.0136286" vertical-offset="0" max-vertical-offset="697" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.39666668" vertical-offset="0" max-vertical-offset="157386">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1351147969991" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1351147969991" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1351147969991" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="14" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.39666668" vertical-offset="0" max-vertical-offset="157386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/css/bootstrap-responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18955">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18955" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/css/bootstrap-responsive.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="613">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="613" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.24959217" vertical-offset="0" max-vertical-offset="613">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.24959217" vertical-offset="0" max-vertical-offset="613" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="-0.6507666" vertical-offset="705" max-vertical-offset="1292">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.637138" vertical-offset="0" max-vertical-offset="1530">
+        <state line="19" column="25" selection-start="467" selection-end="467" vertical-scroll-proportion="0.4923339" vertical-offset="17" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="6" selection-start="803" selection-end="803" vertical-scroll-proportion="-5.8846154" vertical-offset="187" max-vertical-offset="1241">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/DB-Back/jsjsite.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

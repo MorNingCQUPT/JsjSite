@@ -18,8 +18,6 @@ class IndexController extends Controller {
 
         $this->assign('menu', $menu_array);
         $this->display();
-
-        dump($article_array);
     }
 
     /*

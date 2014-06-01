@@ -20,7 +20,7 @@
 
 <body>
 <!-- 菜单 开始 -->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,22 +33,19 @@
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <!-- 头部菜单 Start -->
+<!-- 头部菜单 Start -->
                 <li class="active"><a href="#">首页</a></li>
                 <foreach name="menu" item="vo">
                     <li class="dropdown">
-                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">{$vo.plate_name}<b
-                                class="caret"></b></a>
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">{$vo.plate_name}<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <foreach name="vo['columns']" item="cl" key="index">
-                                <li class="">
-                                    <a href="#" target="_blank">{$cl}</a>
-                                </li>
+                                <li class=""><a href="#" target="_blank">{$cl}</a></li>
                             </foreach>
                         </ul>
                     </li>
                 </foreach>
-                <!-- 头部菜单 End -->
+<!-- 头部菜单 End -->
             </ul>
         </div>
     </div>
