@@ -15,9 +15,12 @@ class ArticleController extends Controller {
             echo '参数错误！！';
             return;
         }
-
         // SQLi Filter 处理
         $article = $this->get_article_info($id);
+
+        $this->assign('article', $article);
+        $this->assign('sidebar', null);
+
         dump($article);
     }
 

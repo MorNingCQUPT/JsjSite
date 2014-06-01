@@ -10,13 +10,16 @@ class IndexController extends Controller {
 
     public function index() {
         $menu_array = $this->get_menu_array();
-        $article_array = $this->get_article_list();
+        $article_array_one = $this->get_article_list(1, 1);
+        $article_array_two = $this->get_article_list(1, 2);
+        $article_array_three = $this->get_article_list(1, 3);
 
         // 传给View层渲染
-        $display = array();
-        $display['menu'] = $menu_array;
-
         $this->assign('menu', $menu_array);
+        $this->assign('article_list_one', $article_array_one);
+        $this->assign('article_list_two', $article_array_two);
+        $this->assign('article_list_three', $article_array_three);
+
         $this->display();
     }
 
@@ -71,11 +74,18 @@ class IndexController extends Controller {
         $map = array();
         $map['article_plate_id'] = $article_plate_id;
         $map['article_column_id'] = $article_column_id;
-        $article_arrary = $Article->where($map)->limit($limit)->select();
+        $article_array = $Article->where($map)->limit($limit)->select();
 
-        if( count($article_arrary) ) {
+        if( count($article_array) ) {
             // 转换特定格式
-            return $article_arrary;
+            $article_array_result = array();
+            foreach ($article_array as $each_article) {
+                // 截取时间格式为“Y-m-d”
+                $each_article['article_postdate'] = date('Y-m-d', strtotime($each_article['article_postdate']));
+                $article_array_result[] = $each_article;
+            }
+            //dump($article_array_result);
+            return $article_array_result;
         } else {
             // 查询失败
             return null;
