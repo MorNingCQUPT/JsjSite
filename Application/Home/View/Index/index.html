@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>重庆邮电大学-计算机科学与技术学院</title>
 
-    <link rel="stylesheet" href="__ROOT__/Public/css/bootstrap.css">
-    <link rel="stylesheet" href="__ROOT__/Public/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap-theme.css">
 
-    <script src="__ROOT__/Public/js/jquery-1.11.1.js"></script>
-    <script src="__ROOT__/Public/js/bootstrap.js"></script>
+    <script src="__PUBLIC__/js/jquery-1.11.1.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.js"></script>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand navbar-right" href="#">计算机科学与技术学院</a>
+            <a class="navbar-brand" href="__APP__">计算机科学与技术学院</a>
         </div>
 
         <div class="navbar-collapse collapse">
@@ -73,14 +73,13 @@
                 <div class="panel-heading">学院新闻</div>
                 <div class="list-group">
                     <foreach name="article_list_one" item="vo">
-                        <a href="#" class="list-group-item">[{$vo.article_postdate}]:{$vo.article_title}</a>
+                        <a href="__APP__/Home/Article/index/id/{$vo.article_id}" class="list-group-item">[{$vo.article_postdate}]:{$vo.article_title}</a>
                     </foreach>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="container ">
     <div class="row">
@@ -89,7 +88,7 @@
                 <div class="panel-heading">学院新闻</div>
                     <div class="list-group">
                         <foreach name="article_list_one" item="vo">
-                            <a href="#" class="list-group-item">[{$vo.article_postdate}]:{$vo.article_title}</a>
+                            <a href="__APP__/Home/Article/index/id/{$vo.article_id}" class="list-group-item">[{$vo.article_postdate}]:{$vo.article_title}</a>
                         </foreach>
                     </div>
             </div>
@@ -99,7 +98,7 @@
                 <div class="panel-heading">通知公告</div>
                     <div class="list-group">
                         <foreach name="article_list_two" item="vo">
-                            <a href="#" class="list-group-item">[{$vo.article_postdate}]:{$vo.article_title}</a>
+                            <a href="__APP__/Home/Article/index/id/{$vo.article_id}" class="list-group-item">[{$vo.article_postdate}]:{$vo.article_title}</a>
                         </foreach>
                     </div>
             </div>
@@ -109,7 +108,7 @@
                 <div class="panel-heading">学生活动</div>
                     <div class="list-group">
                         <foreach name="article_list_three" item="vo">
-                            <a href="#" class="list-group-item">[{$vo.article_postdate}]:{$vo.article_title}</a>
+                            <a href="__APP__/Home/Article/index/id/{$vo.article_id}" class="list-group-item">[{$vo.article_postdate}]:{$vo.article_title}</a>
                         </foreach>
                     </div>
             </div>

@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
 <!-- 菜单遍历格式 开始
 <?php if(is_array($menu)): foreach($menu as $key=>$vo): ?><li>板块 <?php echo ($vo["plate_id"]); ?>:<?php echo ($vo["plate_name"]); ?></li>
     <?php if(is_array($vo['columns'])): foreach($vo['columns'] as $index=>$cl): ?><ul>栏目 <?php echo ($index); ?>:<?php echo ($cl); ?></ul><?php endforeach; endif; endforeach; endif; ?>
@@ -28,7 +27,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand navbar-right" href="#">计算机科学与技术学院</a>
+            <a class="navbar-brand" href="/JsjSite/index.php">计算机科学与技术学院</a>
         </div>
 
         <div class="navbar-collapse collapse">
@@ -63,13 +62,12 @@
             <div class="panel panel-default">
                 <div class="panel-heading">学院新闻</div>
                 <div class="list-group">
-                    <?php if(is_array($article_list_one)): foreach($article_list_one as $key=>$vo): ?><a href="#" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
+                    <?php if(is_array($article_list_one)): foreach($article_list_one as $key=>$vo): ?><a href="/JsjSite/index.php/Home/Article/index/id/<?php echo ($vo["article_id"]); ?>" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="container ">
     <div class="row">
@@ -77,7 +75,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">学院新闻</div>
                     <div class="list-group">
-                        <?php if(is_array($article_list_one)): foreach($article_list_one as $key=>$vo): ?><a href="#" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
+                        <?php if(is_array($article_list_one)): foreach($article_list_one as $key=>$vo): ?><a href="/JsjSite/index.php/Home/Article/index/id/<?php echo ($vo["article_id"]); ?>" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
                     </div>
             </div>
         </div>
@@ -85,7 +83,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">通知公告</div>
                     <div class="list-group">
-                        <?php if(is_array($article_list_two)): foreach($article_list_two as $key=>$vo): ?><a href="#" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
+                        <?php if(is_array($article_list_two)): foreach($article_list_two as $key=>$vo): ?><a href="/JsjSite/index.php/Home/Article/index/id/<?php echo ($vo["article_id"]); ?>" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
                     </div>
             </div>
         </div>
@@ -93,7 +91,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">学生活动</div>
                     <div class="list-group">
-                        <?php if(is_array($article_list_three)): foreach($article_list_three as $key=>$vo): ?><a href="#" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
+                        <?php if(is_array($article_list_three)): foreach($article_list_three as $key=>$vo): ?><a href="/JsjSite/index.php/Home/Article/index/id/<?php echo ($vo["article_id"]); ?>" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
                     </div>
             </div>
         </div>

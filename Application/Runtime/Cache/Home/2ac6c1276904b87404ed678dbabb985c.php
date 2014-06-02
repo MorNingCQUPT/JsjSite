@@ -1,25 +1,21 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>重庆邮电大学-计算机科学与技术学院</title>
 
-    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
-    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/JsjSite/Public/css/bootstrap.css">
+    <link rel="stylesheet" href="/JsjSite/Public/css/bootstrap-theme.css">
 
-    <script src="__PUBLIC__/js/jquery-1.11.1.js"></script>
-    <script src="__PUBLIC__/js/bootstrap.js"></script>
+    <script src="/JsjSite/Public/js/jquery-1.11.1.js"></script>
+    <script src="/JsjSite/Public/js/bootstrap.js"></script>
 </head>
 
 <body>
 <!-- 菜单遍历格式 开始
-<foreach name="menu" item="vo">
-    <li>板块 {$vo.plate_id}:{$vo.plate_name}</li>
-    <foreach name="vo['columns']" item="cl" key="index">
-         <ul>栏目 {$index}:{$cl}</ul>
-    </foreach>
-</foreach>
+<?php if(is_array($menu)): foreach($menu as $key=>$vo): ?><li>板块 <?php echo ($vo["plate_id"]); ?>:<?php echo ($vo["plate_name"]); ?></li>
+    <?php if(is_array($vo['columns'])): foreach($vo['columns'] as $index=>$cl): ?><ul>栏目 <?php echo ($index); ?>:<?php echo ($cl); ?></ul><?php endforeach; endif; endforeach; endif; ?>
      菜单遍历格式 结束 -->
 
 <!-- 菜单 开始 -->
@@ -31,22 +27,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="__APP__">计算机科学与技术学院</a>
+            <a class="navbar-brand" href="/JsjSite/index.php">计算机科学与技术学院</a>
         </div>
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <!-- 头部菜单 Start -->
-                <foreach name="menu" item="vo">
-                    <li class="dropdown">
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown">{$vo.plate_name}<b class="caret"></b></a>
+                <?php if(is_array($menu)): foreach($menu as $key=>$vo): ?><li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown"><?php echo ($vo["plate_name"]); ?><b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <foreach name="vo['columns']" item="cl" key="index">
-                                <li class=""><a href="#" target="_blank">{$cl}</a></li>
-                            </foreach>
+                            <?php if(is_array($vo['columns'])): foreach($vo['columns'] as $index=>$cl): ?><li class=""><a href="#" target="_blank"><?php echo ($cl); ?></a></li><?php endforeach; endif; ?>
                         </ul>
-                    </li>
-                </foreach>
+                    </li><?php endforeach; endif; ?>
                 <!-- 头部菜单 End -->
             </ul>
         </div>
