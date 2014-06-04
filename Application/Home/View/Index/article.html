@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>计算机科学与技术学院</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>重庆邮电大学-计算机科学与技术学院</title>
-
-    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
-    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap-theme.css">
-
-    <script src="__PUBLIC__/js/jquery-1.11.1.js"></script>
-    <script src="__PUBLIC__/js/bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/doc.min.css" />
+    <script src="__PUBLIC__/js/jquery-1.9.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <!--[if gte IE 8]>
+    <script src="__PUBLIC__/js/doc.js"></script>
+    <script src="__PUBLIC__/js/respond.js"></script>
+    <![endif]-->
 </head>
 
 <body>
@@ -22,8 +27,7 @@
 </foreach>
      菜单遍历格式 结束 -->
 
-<!-- 菜单 开始 -->
-<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -31,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="__APP__">计算机科学与技术学院</a>
+            <a class="navbar-brand" href="#">计算机科学与技术学院</a>
         </div>
 
         <div class="navbar-collapse collapse">
@@ -52,27 +56,84 @@
         </div>
     </div>
 </div>
-<!-- 菜单 结束 -->
 
-<!-- 文章显示 开始 -->
+<!-- 位置标签 开始 -->
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
-            <div class="panel panel-defualt">
-                <div class="panel-heading">文章内容</div>
+        您的位置：首页->
+        {$article.plate_name}->
+        <a href="__APP__/Home/Index/summary/plate_id/{$article.plate_id}/column_id/{$article.column_id}">
+            {$article.column_name}
+        </a>
+    </div>
+</div>
+<!-- 位置标签 结束 -->
 
+<!-- 内容 开始 -->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <div class="panel panel-primary">
+                <div class="panel-heading">正文</div>
+                <div class="panel-body">
+                    <foreach name="article['articles']" item="cl">
+                        <div class="panel-title">
+                            <h3>{$cl.article_title}</h3>
+                            <div class="article-info">
+                                作者：<span class="author">{$cl.article_postuser}</span>
+                                时间：<span class="author">{$cl.article_postdate}</span>
+                            </div>
+                        </div>
+                        <div class="article-body">
+                            {$cl.article_content}
+                        </div>
+                    </foreach>
+                </div>
             </div>
         </div>
 
-        <div class="col-md-4 hidden-xs hidden-sm">
-            <div class="panel panel-defualt">
-                <div class="panel-heading">导航栏</div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">{$sidebar.plate_name}</div>
+                <foreach name="sidebar['columns']" item="cl">
+                    <a class="list-group-item" href="__APP__/Home/Index/summary/plate_id/{$sidebar.plate_id}/column_id/{$cl.column_id}">
+                        {$cl.column_name}
+                    </a>
+                </foreach>
             </div>
         </div>
     </div>
 </div>
-<!-- 文章显示 结束 -->
+<!-- 内容 结束 -->
 
+<!-- 页脚 开始 -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="doc-cont">
+                    <div class="doc-link">
+                        <span class="label label-default">友情链接</span>
+                        <a href="#">重庆邮电大学</a>
+                        <a href="#">重庆邮电大学</a>
+                        <a href="#">重庆邮电大学</a>
+                        <a href="#">重庆邮电大学</a>
+                        <a href="#">重庆邮电大学 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="doc-info">
+                    <p>Powered By Bootstrap | jQuery</p>
+                    <a href="#">管理入口</a> | <a href="#">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 页脚 结束 -->
 </body>
 </html>

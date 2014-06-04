@@ -24,12 +24,14 @@ class IndexController extends Controller {
         $this->assign('summary_array_two', $summary_array_two);
         $this->assign('summary_array_three', $summary_array_three);
 
-        //$this->display();
+        $this->display();
 
+        /*
         dump($menu_array);
         dump($summary_array_one);
         dump($summary_array_two);
         dump($summary_array_three);
+        */
     }
 
 
@@ -70,11 +72,14 @@ class IndexController extends Controller {
         $this->assign('menu', $menu_array);
         $this->assign('article', $article);
         $this->assign('sidebar', $sidebar);
-        // $this->display();
 
+        $this->display();
+
+        /*
         dump($menu_array);
         dump($article);
         dump($sidebar);
+        */
     }
 
 
@@ -227,5 +232,13 @@ class IndexController extends Controller {
         $sidebar['columns'] = $column;
 
         return $sidebar;
+    }
+
+
+    /*
+     * 功能：获取友链信息
+     */
+    private function get_link_list() {
+
     }
 }

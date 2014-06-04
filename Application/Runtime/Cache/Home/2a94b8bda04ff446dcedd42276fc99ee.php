@@ -1,15 +1,20 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
+    <title>计算机科学与技术学院</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>重庆邮电大学-计算机科学与技术学院</title>
-
-    <link rel="stylesheet" href="/JsjSite/Public/css/bootstrap.css">
-    <link rel="stylesheet" href="/JsjSite/Public/css/bootstrap-theme.css">
-
-    <script src="/JsjSite/Public/js/jquery-1.11.1.js"></script>
-    <script src="/JsjSite/Public/js/bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/JsjSite/Public/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/JsjSite/Public/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="/JsjSite/Public/css/doc.min.css" />
+    <script src="/JsjSite/Public/js/jquery-1.9.min.js"></script>
+    <script src="/JsjSite/Public/js/bootstrap.min.js"></script>
+    <!--[if gte IE 8]>
+    <script src="/JsjSite/Public/js/doc.js"></script>
+    <script src="/JsjSite/Public/js/respond.js"></script>
+    <![endif]-->
 </head>
 
 <body>
@@ -18,8 +23,7 @@
     <?php if(is_array($vo['columns'])): foreach($vo['columns'] as $index=>$cl): ?><ul>栏目 <?php echo ($index); ?>:<?php echo ($cl); ?></ul><?php endforeach; endif; endforeach; endif; ?>
      菜单遍历格式 结束 -->
 
-<!-- 菜单 开始 -->
-<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -27,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/JsjSite/index.php">计算机科学与技术学院</a>
+            <a class="navbar-brand" href="#">计算机科学与技术学院</a>
         </div>
 
         <div class="navbar-collapse collapse">
@@ -44,63 +48,93 @@
         </div>
     </div>
 </div>
-<!-- 菜单 结束 -->
 
-<!-- 主页内容 开始 -->
 <div class="container">
+    <div class="row hidden-sm">
+        <div class="doc-header">
+            <img src="/JsjSite/Public/images/top.jpg" class="img-responsive" />
+        </div>
+    </div>
+
     <div class="row">
-        <div class="col-md-8">
-            <div class="panel panel-default">
-                <div class="panel-heading">这里是图片区？？？</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 hidden-sm">
+            <div class="panel panel-info">
+                <div class="panel-heading"><?php echo ($summary_array_one["column_name"]); ?></div>
                 <div class="list-group">
-                    <?php if(is_array($article_list_one)): foreach($article_list_one as $key=>$vo): ?><a href="#" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
+                    <?php if(is_array($summary_array_one['articles'])): foreach($summary_array_one['articles'] as $key=>$cl): ?><a href="/JsjSite/index.php/Home/Index/article/id/<?php echo ($cl["article_id"]); ?>" class="list-group-item">
+                            <span class="label label-info pull-right">[<?php echo ($cl["article_postdate"]); ?>]</span>
+                            <?php echo ($cl["article_title"]); ?>
+                        </a><?php endforeach; endif; ?>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">学院新闻</div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="panel panel-info">
+                <div class="panel-heading"><?php echo ($summary_array_two["column_name"]); ?></div>
                 <div class="list-group">
-                    <?php if(is_array($article_list_one)): foreach($article_list_one as $key=>$vo): ?><a href="/JsjSite/index.php/Home/Article/index/id/<?php echo ($vo["article_id"]); ?>" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
+                    <?php if(is_array($summary_array_two['articles'])): foreach($summary_array_two['articles'] as $key=>$cl): ?><a href="/JsjSite/index.php/Home/Index/article/id/<?php echo ($cl["article_id"]); ?>#" class="list-group-item">
+                            <span class="label label-info pull-right">[<?php echo ($cl["article_postdate"]); ?>]</span>
+                            <?php echo ($cl["article_title"]); ?>
+                        </a><?php endforeach; endif; ?>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="panel panel-info">
+                <div class="panel-heading"><?php echo ($summary_array_three["column_name"]); ?></div>
+                <div class="list-group">
+                    <?php if(is_array($summary_array_three['articles'])): foreach($summary_array_three['articles'] as $key=>$cl): ?><a href="/JsjSite/index.php/Home/Index/article/id/<?php echo ($cl["article_id"]); ?>" class="list-group-item">
+                            <span class="label label-info pull-right">[<?php echo ($cl["article_postdate"]); ?>]</span>
+                            <?php echo ($cl["article_title"]); ?>
+                        </a><?php endforeach; endif; ?>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="panel panel-info">
+                <div class="panel-heading"><?php echo ($summary_array_four["column_name"]); ?></div>
+                <div class="list-group">
+                    <?php if(is_array($summary_array_four['articles'])): foreach($summary_array_four['articles'] as $key=>$cl): ?><a href="/JsjSite/index.php/Home/Index/article/id/<?php echo ($cl["article_id"]); ?>" class="list-group-item">
+                            <span class="label label-info pull-right">[<?php echo ($cl["article_postdate"]); ?>]</span>
+                            <?php echo ($cl["article_title"]); ?>
+                        </a><?php endforeach; endif; ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="container ">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">学院新闻</div>
-                    <div class="list-group">
-                        <?php if(is_array($article_list_one)): foreach($article_list_one as $key=>$vo): ?><a href="/JsjSite/index.php/Home/Article/index/id/<?php echo ($vo["article_id"]); ?>" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
-                    </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">通知公告</div>
-                    <div class="list-group">
-                        <?php if(is_array($article_list_two)): foreach($article_list_two as $key=>$vo): ?><a href="/JsjSite/index.php/Home/Article/index/id/<?php echo ($vo["article_id"]); ?>" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
-                    </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">学生活动</div>
-                    <div class="list-group">
-                        <?php if(is_array($article_list_three)): foreach($article_list_three as $key=>$vo): ?><a href="/JsjSite/index.php/Home/Article/index/id/<?php echo ($vo["article_id"]); ?>" class="list-group-item">[<?php echo ($vo["article_postdate"]); ?>]:<?php echo ($vo["article_title"]); ?></a><?php endforeach; endif; ?>
-                    </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 主页内容 结束 -->
 
 <!-- 页脚 开始 -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="doc-cont">
+                    <div class="doc-link">
+                        <span class="label label-default">友情链接</span>
+                        <a href="#">重庆邮电大学</a>
+                        <a href="#">重庆邮电大学</a>
+                        <a href="#">重庆邮电大学</a>
+                        <a href="#">重庆邮电大学</a>
+                        <a href="#">重庆邮电大学 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="doc-info">
+                    <p>Powered By Bootstrap | jQuery</p>
+                    <a href="#">管理入口</a> | <a href="#">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- 页脚 结束 -->
 </body>
 </html>

@@ -1,0 +1,17 @@
+@-ms-viewport       { width: device-width; }
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+.navbar{border-radius: 0;}
+.row{margin-bottom: 10px;}
+.footer{background: #3c3c3c;color: #999;}
+.doc-cont{padding:30px 0;}
+.doc-link a,.doc-info p,.doc-info a{padding: .2em .6em .3em;font-size: 75%;color: #999;}
+.list-group a{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.panel-title{text-align: center;margin-bottom: 10px;}
+.panel-title h3{font-weight: bold;}
+.article-info {font-size: 12px;}
+.teacher-list{padding: 10px;background: #eeeeee;margin-bottom: 10px;}
+.doc-panel{margin-bottom: 10px;}
